@@ -1,5 +1,5 @@
 .body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     color: #212121;
     background-color: #e5e5e5;
     position: relative;
@@ -20,17 +20,26 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    list-style-type: none;
 }
 
-div > a {
-    text-decoration: none;
-    color: #757575;
+.filter-wrapper {
+    background: #f5f4fa;
+    border-radius: 4px;
+    list-style-type: none;
 }
 
-.button {
+.filter-btn {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: 3%;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #212121;
+}
+
+.gallery {
+    list-style-type: none;
 }
