@@ -1,11 +1,11 @@
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
     background: #ffffff;
 }
+
 .head-wrapper {
     background-color: #ffffff;
-    width: 35%;
 }
 
 .logo {
@@ -17,7 +17,7 @@
     color: #2196f3;
 }
 
-.text {
+.nav-list {
     list-style-type: none;
     text-decoration: none;
     font-weight: 500;
@@ -27,14 +27,34 @@
     color: #020202;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: #212121;
+}
+.nav-link:hover,
+.nav-link:focus {
+    text-decoration: underline;
+    color: #2196f3;
+}
+
+.head-contact {
+    text-decoration: none;
+    color: #757575;
+}
+.head-contact:hover,
+.head-contact:focus {
+    text-decoration: underline;
+    color: #2196f3;
+}
+
 .filter-wrapper {
     background: #ffffff;
     list-style-type: none;
 }
 
 .filter-btn {
-    font-family: 'Roboto';
-    font-style: normal;
+    cursor: pointer;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -45,6 +65,7 @@
     border: 0;
 }
 
+.filter-btn:hover,
 .filter-btn:focus {
     color: #ffffff;
     background: #2196f3;
@@ -53,79 +74,68 @@
     border-radius: 4px;
 }
 
-.gallery {
+.cards {
     list-style-type: none;
 }
-.merger {
-    background: #ffffff;
-    width: 370px;
-    border: 1px solid #eeeeee;
-}
-.title {
+
+.card-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
 }
-.subtitle {
+.card-subtitle {
     display: block;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.contact {
-    font-style: normal;
-    font-weight: 400;
+
+.card-box {
+    background: #ffffff;
+    width: 370px;
+    border: 1px solid #eeeeee;
+}
+
+.foot-wrapper {
+    background-color: #2f303a;
+}
+
+.foot-contact {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.link1 {
-    cursor: pointer;
-    text-decoration: none;
-    color: #757575;
-}
-.link2 {
-    cursor: pointer;
+.link {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
-.link1:hover,
-.link1:focus {
+
+.link:hover,
+.link:focus {
     text-decoration: underline;
     color: #2196f3;
 }
 
-.link2:hover .link2:focus {
-    text-decoration: underline;
-    color: #2196f3;
-}
+/* index.html spec styles */
 
-.end-wrapper {
-    background-color: #2f303a;
-    width: 35%;
+.main-background {
+    background: #ffffff;
 }
-
-.navigation-select {
-    cursor: pointer;
-}
-
-.theme {
-    background: #2f303a;
-}
-
-.element {
+.title {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+.title-background {
+    background: #2f303a;
 }
 
 .click-on {
@@ -135,7 +145,7 @@
     border: 0;
 }
 
-.info-title {
+.advantages-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -143,9 +153,7 @@
     text-transform: uppercase;
     color: #212121;
 }
-
-.info {
-    font-weight: 400;
+.advantages {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -160,16 +168,33 @@
     color: #212121;
 }
 
-.main-theme {
-    background: #ffffff;
+.activities {
+    list-style-type: none;
 }
 
-.team-nav {
+.team-cards {
     background: #f5f4fa;
 }
 
-.merger2 {
-    background: #ffffff;
+.member-card {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
     width: 270px;
-    border: 1px solid #eeeeee;
+    border: 0 solid #eeeeee;
+}
+
+.member-card-title {
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.member-card-text {
+    display: block;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
