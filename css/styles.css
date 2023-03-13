@@ -35,6 +35,7 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--active-color);
+    text-decoration: none;
 }
 
 .nav {
@@ -75,6 +76,7 @@ ul {
 
 .filter-btn {
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -152,7 +154,8 @@ ul {
 
 .title-background {
     background: var(--title-color);
-    padding: 200px 452px 280px 452px;
+    padding: 200px 252px 280px 252px;
+    text-align: center;
 }
 
 .click-on {
@@ -164,6 +167,8 @@ ul {
     border-radius: 4px;
     border: 0;
     padding: 10px 41px 10px 42px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 .advantages-title {
