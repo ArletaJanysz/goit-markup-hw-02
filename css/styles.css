@@ -157,6 +157,9 @@ ul {
 
 .click-on {
     background: var(--active-color);
+    color: var(--bg-color);
+    font-weight: 700;
+    line-height: 1.9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 0;
@@ -202,9 +205,7 @@ ul {
     width: 270px;
     height: 368px;
     border: 0 solid var(--card-box-border-color);
-   /* padding: 290px 70px 30px 70px */
-   text-align: center;
-
+    text-align: center;
 }
 
 .member-card-title {
@@ -212,7 +213,6 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--card-title-color);
-    
 }
 
 .member-card-text {
@@ -220,5 +220,4 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--card-subtitle-color);
-    ;
 }
